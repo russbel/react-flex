@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "make",
-    "build": "./node_modules/.bin/browserify --im --extension=.jsx -t reactify -d src/js/index.js -o index.js",
-    "watch": "./node_modules/.bin/watchify --im --extension=.jsx -t reactify -d src/js/index.js -o index.js",
+    "build": "./node_modules/.bin/browserify --im --extension=.jsx -t reactify -d src/js/index.js -o build.js",
+    "watch": "./node_modules/.bin/watchify --im --extension=.jsx -t reactify -d src/js/index.js -o build.js",
     "bwatch": "npm run build && npm run watch",
     "css-watch": "./node_modules/.bin/stylus --include-css -w src/resources/css/index.styl -o ."
   },
