@@ -5,24 +5,29 @@
   "main": "index.js",
   "scripts": {
     "test": "make",
-    "build": "./node_modules/.bin/browserify --im --extension=.jsx -t reactify -d src/js/index.js -o index.js",
-    "watch": "./node_modules/.bin/watchify --im --extension=.jsx -t reactify -d src/js/index.js -o index.js",
+    "build": "./node_modules/.bin/gulp",
+    "watch": "./node_modules/.bin/watchify --extension=.jsx -t reactify -d src/js/index.js -s react-flex | ./node_modules/derequire/bin/cmd.js > index.js",
     "bwatch": "npm run build && npm run watch",
-    "css-watch": "./node_modules/.bin/stylus --include-css -w src/resources/css/index.styl -o ."
+    "css-watch": "./node_modules/.bin/stylus --include-css -w src/resources/css/index.styl -o .",
+    "test-watch": "./node_modules/.bin/watchify --extension=.jsx -t reactify -v -d test.jsx -o test.js"
   },
   "dependencies": {
-    "css-utils": "~0.2.0",
+    "css-utils": "~0.3.0",
     "to-style": "~1.0.2",
     "stylus": "~0.48.1",
     "i-s": "~1.0.2",
-    "normalize.css": "~3.0.1"
+    "normalize.css": "~3.0.1",
+    "derequire": "~1.0.0",
+    "react": "~0.11.1"
   },
   "devDependencies": {
     "mocha": "~1.21.4",
     "should": "~4.0.4",
     "reactify": "~0.14.0",
     "browserify": "~5.10.1",
-    "watchify": "~1.0.2"
+    "watchify": "~1.0.2",
+    "gulp": "~3.8.7",
+    "gulp-react": "~1.0.0"
   },
   "repository": {
     "type": "git",

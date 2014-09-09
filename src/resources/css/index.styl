@@ -1,17 +1,14 @@
-@import '../../../node_modules/normalize.css/normalize.css'
+
 @import '../../../node_modules/css-utils/styles/css-utils.styl'
 
 borderColor=magenta
-body
-    padding 30px
-    border 1px solid red
-    *
-        border-width 0px
 
 .rf-layout
-    border-style solid
     position relative
     size 100%
+    .rf-layout-item
+        position relative
+
     &.rf-row
         @extend .u-flex-row
 
@@ -26,7 +23,7 @@ body
     &.rf-column-n-row-1
         & > .rf-layout-item
             position relative
-            .rf-row
+            & > .rf-layout
                 position absolute
                 size 100%
                 top 0px

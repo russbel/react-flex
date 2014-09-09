@@ -1,6 +1,7 @@
+/** @jsx React.DOM */
 var React = require('react')
 
-module.exports = React.createClass({
+module.exports = React.createClass({displayName: 'exports',
 
     mixins: [
         require('./common')
@@ -14,9 +15,9 @@ module.exports = React.createClass({
 
     render: function(){
         return (
-            <div className="rf-row rf-layout">
-                {this.renderChildren()}
-            </div>
+            React.DOM.div({className: "rf-row rf-layout"}, 
+                this.renderChildren()
+            )
         )
     }
 })

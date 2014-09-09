@@ -1,3 +1,4 @@
+/** @jsx React.DOM */
 var React = require('react')
 
 module.exports = function(itemClass, itemPadding){
@@ -8,7 +9,7 @@ module.exports = function(itemClass, itemPadding){
         }
 
         return React.Children.map(children || this.props.children, function(item, index){
-            return <div className={itemClass(item, index, this)} style={itemPadding(item, index, this)}>{item}</div>
+            return React.DOM.div({className: itemClass(item, index, this), style: itemPadding(item, index, this)}, item)
         }, layout || this)
     }
 }

@@ -1,4 +1,4 @@
-/** @jsx React.DOM */
+var React = require('react')
 
 var RowLayout = require('./RowLayout')
 var ColumnLayout = require('./ColumnLayout')
@@ -27,7 +27,7 @@ module.exports = React.createClass({
         this.asChildLayout(columnLayout)
 
         return (
-            <div className={"rf-layout rf-composite rf-row-1-column-n "+(this.props.horizontal?'rf-horizontal':'rf-vertical')}>
+            <div className={"rf-layout rf-composite rf-row-1-column-n "+(this.props.horizontal?'rf-horizontal':'rf-vertical') + (' ' + (this.props.className||''))}>
                 {this.renderChildren([rowLayout, columnLayout], this)}
             </div>
         )

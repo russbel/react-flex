@@ -1,3 +1,4 @@
+/** @jsx React.DOM */
 var React = require('react')
 
 var RowLayout = require('./RowLayout')
@@ -6,7 +7,7 @@ var ColumnLayout = require('./ColumnLayout')
 var common         = require('./common')
 var renderChildren = common.renderChildren
 
-module.exports = React.createClass({
+module.exports = React.createClass({displayName: 'exports',
 
     mixins: [
         common
@@ -15,21 +16,21 @@ module.exports = React.createClass({
     render: function(){
         var children = this.props.children.concat()
 
-        var rowLayout = <RowLayout>
-                            {children[children.length - 1]}
-                        </RowLayout>
+        var rowLayout = RowLayout(null, 
+                            children[children.length - 1]
+                        )
 
-        var columnLayout = <ColumnLayout>
-                            {children.slice(0, children.length - 1)}
-                        </ColumnLayout>
+        var columnLayout = ColumnLayout(null, 
+                            children.slice(0, children.length - 1)
+                        )
 
         this.asChildLayout(columnLayout)
         this.asChildLayout(rowLayout)
 
         return (
-            <div className={"rf-layout rf-composite rf-column-n-row-1 "+(this.props.horizontal?'rf-horizontal':'rf-vertical') + (' ' + (this.props.className||''))}>
-                {this.renderChildren([columnLayout, rowLayout], this)}
-            </div>
+            React.DOM.div({className: "rf-layout rf-composite rf-column-n-row-1 "+(this.props.horizontal?'rf-horizontal':'rf-vertical') + (' ' + (this.props.className||''))}, 
+                this.renderChildren([columnLayout, rowLayout], this)
+            )
         )
     },
 

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"item",
+				"itemFlex"
+			],
+			[
+				"border",
+				"borderSize"
+			],
+			[
 				"wi",
 				"width"
 			],
@@ -107,6 +115,70 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1212,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test.jsx",
+			"settings":
+			{
+				"buffer_size": 331,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/index.js",
+			"settings":
+			{
+				"buffer_size": 194,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test.js",
+			"settings":
+			{
+				"buffer_size": 1864822,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 211,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 442,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "react-flex.sublime-project",
+			"settings":
+			{
+				"buffer_size": 73,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -115,27 +187,31 @@
 		"selected_items":
 		[
 			[
-				"makr",
-				"Markdown Preview: Preview in Browser"
+				"rena",
+				"File: Rename"
 			],
 			[
 				"dele",
 				"File: Delete"
 			],
 			[
-				"rena",
-				"File: Rename"
+				"reba",
+				"Preferences: Alignment Key Bindings – Default"
 			],
 			[
 				"du",
 				"File: Duplicate"
 			],
 			[
-				"d",
+				"dup",
 				"File: Duplicate"
 			],
 			[
-				"dup",
+				"makr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"d",
 				"File: Duplicate"
 			],
 			[
@@ -292,6 +368,40 @@
 	},
 	"file_history":
 	[
+		"/home/radu/code/react-flex/src/js/a/a.jsx",
+		"/home/radu/code/react-flex/src/js/renderChildren.js",
+		"/home/radu/code/react-flex/src/js/test.js",
+		"/home/radu/code/react-flex/test.jsx",
+		"/home/radu/code/react-flex/src/js/renderChildren.jsx",
+		"/home/radu/code/react-flex/index.html",
+		"/home/radu/code/react-flex/index.css",
+		"/home/radu/code/react-flex/src/resources/css/index.styl",
+		"/home/radu/code/react-flex/src/js/ColumnNRow1.jsx",
+		"/home/radu/code/react-flex/build.js",
+		"/home/radu/code/react-flex/src/js/ColumnLayout.jsx",
+		"/home/radu/code/react-flex/src/js/Row1ColumnN.jsx",
+		"/home/radu/code/react-flex/src/js/ColumnNRow1.js",
+		"/home/radu/code/react-flex/index.js",
+		"/home/radu/code/react-flex/src/js/RowLayout.jsx",
+		"/home/radu/code/react-flex/node_modules/reactify/node_modules/react-tools/src/browser/ui/dom/CSSPropertyOperations.js",
+		"/home/radu/code/react-flex/node_modules/browserify/changelog.markdown",
+		"/home/radu/code/react-flex/node_modules/reactify/node_modules/react-tools/src/core/ReactOwner.js",
+		"/home/radu/code/react-flex/react-flex.sublime-project",
+		"/home/radu/code/react-flex/test.js",
+		"/home/radu/code/react-flex/src/js/getDefaultProps.js",
+		"/home/radu/code/react-flex/src/js/common.js",
+		"/home/radu/code/react-flex/package.json",
+		"/home/radu/code/react-flex/src/js/index.js",
+		"/home/radu/code/react-flex/src/js/HColumnNRow1.js",
+		"/home/radu/code/react-flex/node_modules/dummy-module/package.json",
+		"/home/radu/code/react-flex/node_modules/dummy-module/out.js",
+		"/home/radu/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/radu/code/react-flex/node_modules/reactify/node_modules/react-tools/src/browser/ui/dom/getEventTarget.js",
+		"/home/radu/code/react-flex/node_modules/reactify/node_modules/react-tools/src/browser/ui/dom/getEventKey.js",
+		"/home/radu/code/react-flex/node_modules/should/gulpfile.js",
+		"/home/radu/code/react-flex/node_modules/browserify/test/delay.js",
+		"/home/radu/code/react-flex/node_modules/reactify/node_modules/react-tools/src/core/ReactEmptyComponent.js",
+		"/home/radu/code/react-flex/src/resources/css/style.css",
 		"/home/radu/code/css-utils/css-utils.css",
 		"/home/radu/code/css-utils/styles/utils-size.styl",
 		"/home/radu/code/css-utils/node_modules/stylus/node_modules/glob/test/zz-cleanup.js",
@@ -385,51 +495,18 @@
 		"/home/radu/code/entity-hapi/node_modules/entity-engine/node_modules/classy/test/ClassOverrideTests.js",
 		"/home/radu/code/entity-hapi/temp/createAccount.json",
 		"/home/radu/code/entity-hapi/routes/entities/getByName.js",
-		"/home/radu/code/entity-hapi/routes/entities/list.js",
-		"/home/radu/code/entity-hapi/entity-hapi.sublime-project",
-		"/home/radu/code/entity-hapi/node_modules/hapi/test/clientTimeout.js",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/node_modules/alchemy/node_modules/pg/benchmark/prepared-statement-parsing.js",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/node_modules/alchemy/alchemy.sublime-project",
-		"/home/radu/code/entity-hapi/node_modules/good/AUTHORS",
-		"/home/radu/code/entity-hapi/client/src",
-		"/home/radu/code/entity-hapi/node_modules/hapi/lib/views.js",
-		"/home/radu/code/entity-hapi/node_modules/functionally/.idea/vcs.xml",
-		"/home/radu/code/entity-hapi/client/lib/zippyui-1.0.2.zip",
-		"/home/radu/code/entity-hapi/logout.js",
-		"/home/radu/code/entity-hapi/temp/account.json",
-		"/home/radu/code/entity-hapi/underscore",
-		"/home/radu/code/entity-hapi/entities?limit=2",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/api/helpers/paginate.js",
-		"/home/radu/code/entity-hapi/node_modules/bcrypt/package.json",
-		"/home/radu/code/entity-hapi/node_modules/hapi/lib/route.js",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/node_modules/alchemy/node_modules/pg/test/integration/client/row-description-on-results-tests.js",
-		"/home/radu/code/entity-hapi/node_modules/bcrypt/README.md",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/node_modules/express/lib/router/index.js",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/node_modules/bunyan/test/corpus/extrafield.log",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/node_modules/should/.idea/libraries/Node_js_Dependencies_for_should_js.xml",
-		"/home/radu/code/entity-hapi/routes/entities/index.js",
-		"/home/radu/code/entity-hapi/logs/x.log",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/api/getBy.js",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/node_modules/.bin/gulp",
-		"/home/radu/.config/sublime-text-3/Packages/Pretty JSON/Pretty JSON.sublime-settings",
-		"/home/radu/code/entity-hapi/routes/entities.js",
-		"/home/radu/code/entity-hapi/node_modules/hapi/AUTHORS",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/node_modules/alchemy/node_modules/classy/src/core/assignClassProperty.js",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/api/list.js",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/node_modules/gulp/node_modules/liftoff/artwork/liftoff-icon.eps",
-		"/home/radu/code/entity-hapi/node_modules/hapi/LICENSE",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/test/extglob-ending-with-state-char.js",
-		"/home/radu/code/entity-hapi/node_modules/hapi/test/directory/invalid/index.html/do-not-delete"
+		"/home/radu/code/entity-hapi/routes/entities/list.js"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 90.0,
 		"where_history":
 		[
+			"/home/radu/code/react-flex",
 			"/home/radu/code/entity-hapi/logs",
 			"/home/radu/code/entity-hapi",
 			""
@@ -440,6 +517,35 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"src",
+			"ColumnLayout",
+			"border",
+			"bordered",
+			"dereq",
+			"require",
+			"--im ",
+			"--standalone XXX ",
+			"-t browserify-derequire",
+			"-t browserify-derequire ",
+			"require",
+			"xxx",
+			"require",
+			"hyphenre",
+			"require",
+			"req",
+			"require",
+			"index",
+			"Row1ColumnN",
+			"ColumnLayout",
+			"RowLayout",
+			"Row1ColumnN",
+			"RowLayout",
+			"Row1ColumnN",
+			"this.props.",
+			"RowLayout",
+			"layout.bordered",
+			"RowLayout",
+			"row",
 			"width",
 			"height",
 			".z",
@@ -534,8 +640,242 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								984,
+								984
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1864822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "react-flex.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -598,6 +938,58 @@
 		"selected_items":
 		[
 			[
+				"index.",
+				"index.html"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"column1",
+				"src/js/ColumnNRow1.jsx"
+			],
+			[
+				"row1",
+				"src/js/Row1ColumnN.jsx"
+			],
+			[
+				"index.st",
+				"src/resources/css/index.styl"
+			],
+			[
+				"test",
+				"test.jsx"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"column",
+				"src/js/ColumnLayout.js"
+			],
+			[
+				"getdefa",
+				"src/js/getDefaultProps.js"
+			],
+			[
+				"renderc",
+				"src/js/renderChildren.js"
+			],
+			[
+				"index.js",
+				"index.js"
+			],
+			[
 				"utils-f",
 				"styles/utils-flex.styl"
 			],
@@ -610,20 +1002,12 @@
 				"styles/utils-box.styl"
 			],
 			[
-				"pa",
-				"package.json"
-			],
-			[
 				"utils.s",
 				"styles/utils.styl"
 			],
 			[
 				"read",
 				"README.md"
-			],
-			[
-				"pac",
-				"package.json"
 			],
 			[
 				"utils-fle",
@@ -638,24 +1022,12 @@
 				"styles/utils-font.styl"
 			],
 			[
-				"index",
-				"index.html"
-			],
-			[
-				"packa",
-				"package.json"
-			],
-			[
 				"style.s",
 				"src/resources/css/style.styl"
 			],
 			[
 				"style.css",
 				"src/resources/css/style.css"
-			],
-			[
-				"index.",
-				"index.html"
 			],
 			[
 				"style.st",
@@ -878,10 +1250,6 @@
 				"Update.js"
 			],
 			[
-				"column",
-				"Column.js"
-			],
-			[
 				"cre",
 				"test/CreateTable.js"
 			],
@@ -1010,10 +1378,6 @@
 				"test.js"
 			],
 			[
-				"test",
-				"test.ls"
-			],
-			[
 				"columnt",
 				"test/ColumnTests.ls"
 			],
@@ -1038,8 +1402,20 @@
 		"selected_items":
 		[
 			[
+				"zi",
+				"~/code/ZippyUI/zippyui.sublime-project"
+			],
+			[
 				"func",
 				"~/code/functionally/functionally.sublime-project"
+			],
+			[
+				"e",
+				"~/code/entity-designer/entity-designer.sublime-project"
+			],
+			[
+				"cla",
+				"~/code/classy/classy.sublime-project"
 			],
 			[
 				"",
