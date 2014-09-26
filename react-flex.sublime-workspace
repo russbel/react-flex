@@ -656,8 +656,8 @@
 						"selection":
 						[
 							[
-								984,
-								984
+								597,
+								597
 							]
 						],
 						"settings":
@@ -938,12 +938,12 @@
 		"selected_items":
 		[
 			[
-				"index.",
-				"index.html"
-			],
-			[
 				"pac",
 				"package.json"
+			],
+			[
+				"index.",
+				"index.html"
 			],
 			[
 				"packa",
@@ -1401,6 +1401,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"de",
+				"~/code/entity-designer/entity-designer.sublime-project"
+			],
 			[
 				"zi",
 				"~/code/ZippyUI/zippyui.sublime-project"
