@@ -1,6 +1,10 @@
 /** @jsx React.DOM */
+'use strict'
+
 var Row1ColumnN = require('./index').Row1ColumnN
 var React = require('react')
+
+require('./index.styl')
 
 React.renderComponent(
     <Row1ColumnN bordered="true">

@@ -119,48 +119,66 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 1212,
+				"buffer_size": 1207,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "test.jsx",
+			"file": "src/ColumnLayout.jsx",
 			"settings":
 			{
-				"buffer_size": 331,
+				"buffer_size": 398,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/js/index.js",
+			"file": "src/Row1ColumnN.jsx",
 			"settings":
 			{
-				"buffer_size": 194,
+				"buffer_size": 1247,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "test.js",
+			"file": "src/RowLayout.jsx",
 			"settings":
 			{
-				"buffer_size": 1864822,
+				"buffer_size": 411,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Gulpfile.js",
+			"file": "src/renderChildren.jsx",
 			"settings":
 			{
-				"buffer_size": 211,
+				"buffer_size": 495,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.js",
+			"file": "gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 222,
+				"buffer_size": 199,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/ColumnNRow1.jsx",
+			"settings":
+			{
+				"buffer_size": 1289,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSublimeLinter-jsxhint:\n---------------------\n\n  SublimeLinter-jsxhint\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to jsxhint.\n  \n  INSTALLATION\n  ------------\n  Before this plugin will activate, you *must* follow the installation\n  instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-jsxhint\n  \n",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
 			}
 		},
 		{
@@ -183,16 +201,28 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 192.0,
 		"selected_items":
 		[
 			[
-				"rena",
-				"File: Rename"
+				"instal",
+				"Package Control: Install Package"
 			],
 			[
 				"dele",
 				"File: Delete"
+			],
+			[
+				"dee",
+				"File: Delete"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"rena",
+				"File: Rename"
 			],
 			[
 				"reba",
@@ -235,10 +265,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"install ",
 				"Package Control: Install Package"
 			],
@@ -253,10 +279,6 @@
 			[
 				"del",
 				"File: Delete"
-			],
-			[
-				"move",
-				"File: Move"
 			],
 			[
 				"markdo",
@@ -368,10 +390,26 @@
 	},
 	"file_history":
 	[
+		"/home/radu/code/react-flex/webpack.config.js",
+		"/home/radu/code/react-flex/gulpfile.js",
+		"/home/radu/code/react-flex/src/ColumnLayout.jsx",
+		"/home/radu/code/react-flex/src/ColumnNRow1.jsx",
+		"/home/radu/code/react-flex/src/Row1ColumnN.jsx",
+		"/home/radu/code/react-flex/src/ColumnLayout.js",
+		"/home/radu/code/react-flex/style.config.js",
+		"/home/radu/code/react-flex/index.styl",
+		"/home/radu/code/react-flex/index.js",
+		"/home/radu/code/react-flex/test.js",
+		"/home/radu/code/react-flex/src/js/index.js",
+		"/home/radu/code/react-flex/test.jsx",
+		"/home/radu/code/react-flex/src/renderChildren.jsx",
+		"/home/radu/code/react-flex/src/RowLayout.jsx",
+		"/home/radu/code/react-flex/src/ColumnNRow1.js",
+		"/home/radu/code/react-flex/src/renderChildren.js",
+		"/home/radu/code/react-flex/Gulpfile.js",
 		"/home/radu/code/react-flex/src/js/a/a.jsx",
 		"/home/radu/code/react-flex/src/js/renderChildren.js",
 		"/home/radu/code/react-flex/src/js/test.js",
-		"/home/radu/code/react-flex/test.jsx",
 		"/home/radu/code/react-flex/src/js/renderChildren.jsx",
 		"/home/radu/code/react-flex/index.html",
 		"/home/radu/code/react-flex/index.css",
@@ -381,17 +419,14 @@
 		"/home/radu/code/react-flex/src/js/ColumnLayout.jsx",
 		"/home/radu/code/react-flex/src/js/Row1ColumnN.jsx",
 		"/home/radu/code/react-flex/src/js/ColumnNRow1.js",
-		"/home/radu/code/react-flex/index.js",
 		"/home/radu/code/react-flex/src/js/RowLayout.jsx",
 		"/home/radu/code/react-flex/node_modules/reactify/node_modules/react-tools/src/browser/ui/dom/CSSPropertyOperations.js",
 		"/home/radu/code/react-flex/node_modules/browserify/changelog.markdown",
 		"/home/radu/code/react-flex/node_modules/reactify/node_modules/react-tools/src/core/ReactOwner.js",
 		"/home/radu/code/react-flex/react-flex.sublime-project",
-		"/home/radu/code/react-flex/test.js",
 		"/home/radu/code/react-flex/src/js/getDefaultProps.js",
 		"/home/radu/code/react-flex/src/js/common.js",
 		"/home/radu/code/react-flex/package.json",
-		"/home/radu/code/react-flex/src/js/index.js",
 		"/home/radu/code/react-flex/src/js/HColumnNRow1.js",
 		"/home/radu/code/react-flex/node_modules/dummy-module/package.json",
 		"/home/radu/code/react-flex/node_modules/dummy-module/out.js",
@@ -482,20 +517,7 @@
 		"/home/radu/code/entity-hapi/client/src/js/views/entity/EntityCreatePanel.js",
 		"/home/radu/code/entity-hapi/temp/bad.json",
 		"/home/radu/code/entity-hapi/client/src/js/test.jsx",
-		"/home/radu/code/entity-hapi/routes/entities/getById.js",
-		"/home/radu/code/entity-hapi/routes/entities/deleteById.js",
-		"/home/radu/code/entity-hapi/logs/ops-log",
-		"/home/radu/code/entity-hapi/logs/entity.log",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/getMetaTable.js",
-		"/home/radu/code/entity-hapi/views/login.jade",
-		"/home/radu/code/entity-hapi/client/src/jsx/test.jsx",
-		"/home/radu/code/entity-hapi/node_modules/hapi/package.json",
-		"/home/radu/code/entity-hapi/routes/records/list.js",
-		"/home/radu/code/entity-hapi/client/src/js/overrides/index.js",
-		"/home/radu/code/entity-hapi/node_modules/entity-engine/node_modules/classy/test/ClassOverrideTests.js",
-		"/home/radu/code/entity-hapi/temp/createAccount.json",
-		"/home/radu/code/entity-hapi/routes/entities/getByName.js",
-		"/home/radu/code/entity-hapi/routes/entities/list.js"
+		"/home/radu/code/entity-hapi/routes/entities/getById.js"
 	],
 	"find":
 	{
@@ -640,7 +662,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -649,15 +671,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1212,
+						"buffer_size": 1207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								597,
-								597
+								391,
+								391
 							]
 						],
 						"settings":
@@ -670,29 +692,31 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "test.jsx",
+					"file": "src/ColumnLayout.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 331,
+						"buffer_size": 398,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								155,
-								155
+								170,
+								170
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -703,19 +727,79 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/js/index.js",
+					"file": "src/Row1ColumnN.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 194,
+						"buffer_size": 1247,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/RowLayout.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/renderChildren.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								388,
+								388
 							]
 						],
 						"settings":
@@ -730,27 +814,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "test.js",
+					"buffer": 5,
+					"file": "gulpfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1864822,
+						"buffer_size": 199,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								129,
+								129
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -760,49 +842,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "Gulpfile.js",
+					"buffer": 6,
+					"file": "src/ColumnNRow1.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 211,
+						"buffer_size": 1289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								205,
-								205
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 222,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								222,
-								222
+								477,
+								477
 							]
 						],
 						"settings":
@@ -812,6 +865,34 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 112.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -819,7 +900,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
@@ -845,11 +926,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "react-flex.sublime-project",
 					"semi_transient": false,
 					"settings":
@@ -873,7 +954,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]

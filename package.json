@@ -2,32 +2,35 @@
   "name": "react-flex",
   "version": "0.4.2",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "make",
-    "build": "./node_modules/.bin/gulp",
-    "watch": "./node_modules/.bin/watchify --extension=.jsx -t reactify -d src/js/index.js -s react-flex | ./node_modules/derequire/bin/cmd.js > index.js",
-    "bwatch": "npm run build && npm run watch",
-    "css-watch": "./node_modules/.bin/stylus --include-css -w src/resources/css/index.styl -o .",
-    "test-watch": "./node_modules/.bin/watchify --extension=.jsx -t reactify -v -d test.jsx -o test.js"
+    "build": "npm run lib && npm run compile-style",
+    "lib": "./node_modules/.bin/gulp",
+    "compile-style": "./node_modules/.bin/webpack --config style.config.js",
+    "serve": "./node_modules/.bin/http-server",
+    "start": "npm run serve | npm run dev",
+    "dev": "./node_modules/.bin/webpack-dev-server --progress --colors --port 8181"
   },
   "dependencies": {
     "css-utils": "~0.3.0",
     "to-style": "~1.x.x",
-    "stylus": "~0.48.1",
     "i-s": "~1.x.x",
     "normalize.css": "~3.0.1",
-    "derequire": "~1.0.0",
-    "react": "~0.x.x"
+    "react": "~0.11.2"
   },
   "devDependencies": {
     "mocha": "~1.21.4",
     "should": "~4.0.4",
-    "reactify": "~0.14.0",
-    "browserify": "~5.10.1",
-    "watchify": "~1.0.2",
-    "gulp": "~3.8.7",
-    "gulp-react": "~1.0.0"
+    "gulp": "~3.8.8",
+    "gulp-react": "~1.0.2",
+    "style-loader": "~0.8.0",
+    "stylus-loader": "~0.4.0",
+    "css-loader": "~0.9.0",
+    "jsx-loader": "~0.11.2",
+    "webpack-dev-server": "~1.6.5",
+    "webpack": "~1.4.4",
+    "extract-text-webpack-plugin": "~0.3.1"
   },
   "repository": {
     "type": "git",
