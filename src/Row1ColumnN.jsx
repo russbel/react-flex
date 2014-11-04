@@ -1,16 +1,18 @@
 /** @jsx React.DOM */
 
-'use strict'
+'use strict';
 
 var React = require('react')
 
-var RowLayout = require('./RowLayout')
-var ColumnLayout = require('./ColumnLayout')
+var RowLayout = React.createFactory(require('./RowLayout'))
+var ColumnLayout = React.createFactory(require('./ColumnLayout'))
 
 var common         = require('./common')
 var renderChildren = common.renderChildren
 
 module.exports = React.createClass({
+
+    displayName: 'Row1ColumnN',
 
     mixins: [
         common
