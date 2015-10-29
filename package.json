@@ -6,32 +6,23 @@
   "scripts": {
     "test": "make",
     "build": "npm run lib && npm run compile-style",
-    "lib": "./node_modules/.bin/gulp",
-    "compile-style": "./node_modules/.bin/webpack --config style.config.js",
-    "serve": "./node_modules/.bin/http-server",
-    "start": "npm run serve | npm run dev",
-    "dev": "./node_modules/.bin/webpack-dev-server --progress --colors --port 8181"
+    "lib": "gulp",
+    "compile-style": "webpack --config style.config.js",
+    "dev": "webpack-dev-server --progress --colors --config ./build/build.config.js"
   },
-  "dependencies": {
-    "css-utils": "~0.3.0",
-    "gulp-react": "^2.0.0",
-    "i-s": "~1.x.x",
-    "normalize.css": "~3.0.1",
-    "react": "^0.12.0",
-    "to-style": "~1.x.x"
+  "peerDependencies": {
+    "react": ">=0.14.=",
+    "react-dom": ">=0.14.0"
   },
   "devDependencies": {
-    "mocha": "~1.21.4",
-    "should": "~4.0.4",
-    "gulp": "~3.8.8",
-    "gulp-react": "~1.0.2",
-    "style-loader": "~0.8.0",
-    "stylus-loader": "~0.4.0",
-    "css-loader": "~0.9.0",
-    "jsx-loader": "~0.11.2",
-    "webpack-dev-server": "~1.6.5",
-    "webpack": "~1.4.4",
-    "extract-text-webpack-plugin": "~0.3.1"
+    "autoprefixer-loader": "^3.1.0",
+    "css-loader": "^0.21.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "gulp": "^3.9.0",
+    "gulp-react": "^3.1.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
   },
   "repository": {
     "type": "git",

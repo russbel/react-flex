@@ -1,16 +1,22 @@
-/** @jsx React.DOM */
-'use strict'
+import React from 'react';
+import { render } from 'react-dom';
 
-var Row1ColumnN = require('./index').Row1ColumnN
-var React = require('react')
+import './src/index.css';
 
-require('./index.styl')
+import { Flex } from './src'
 
-React.renderComponent(
-    <Row1ColumnN bordered="true">
-        <div>hey</div>
-        <div>second</div>
-        <div flex="1" className="u-fill u-absolute">third</div>
-    </Row1ColumnN>,
+const App = (props) => {
+  return <Flex column style={{border: '3px solid magenta', height: 500, width: 400}}>
+    <Flex style={{background: 'red' }} flex>
+      1
+    </Flex>
+    <Flex style={{background: 'blue' }} flex={2}>
+      2
+    </Flex>
+  </Flex>
+}
+
+render(
+    <App />,
     document.getElementById('content')
 )
