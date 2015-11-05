@@ -26,7 +26,7 @@ const Slider = (props) => {
     <Slide
       {...props}
       handleFactory={renderHandle}
-      style={{marginTop: 10}}
+      style={{marginTop: 10, display: 'inline-block'}}
       orientation="vertical"
       handleStyle={handleStyle}
       trackRadius={5}
@@ -70,10 +70,12 @@ const App = (props) => {
       </Item>
       <Item flex={values.content} style={{background: '#D0FFD7', padding: 10, borderLeft: border}}>
         Content - flex {values.content}
-        <Slider
-          value={values.content}
-          onChange={change('content')}
-        />
+        <div style={{textAlign: 'right'}}>
+          <Slider
+            value={values.content}
+            onChange={change('content')}
+          />
+        </div>
       </Item>
       
     </Flex>
