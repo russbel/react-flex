@@ -26,7 +26,7 @@ const Slider = (props) => {
     <Slide
       {...props}
       handleFactory={renderHandle}
-      style={{marginTop: 10, display: 'inline-block'}}
+      style={{marginTop: 10, marginRight: 40, display: 'inline-block'}}
       orientation="vertical"
       handleStyle={handleStyle}
       trackRadius={5}
