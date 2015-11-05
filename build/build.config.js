@@ -1,5 +1,3 @@
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-
 var loaders = require('./loaders')
 var plugins = require('./plugins')
 var resolve = require('./resolve')

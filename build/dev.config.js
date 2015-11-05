@@ -3,7 +3,7 @@ var loaders = require('./loaders')
 var resolve = require('./resolve')
 
 module.exports = {
-  entry: './test.jsx',
+  entry: './index.jsx',
   bail: true,
   module: {
     loaders: loaders
