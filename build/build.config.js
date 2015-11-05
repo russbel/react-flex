@@ -1,22 +1,21 @@
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 var loaders = require('./loaders')
+var plugins = require('./plugins')
+var resolve = require('./resolve')
 
 module.exports = {
-  entry: './test.jsx',
+  bail: true,
+  entry: './src/index.js',
   output: {
-    filename: 'bundle.js'
+    path: __dirname + '/../dist',
+    libraryTarget: 'umd',
+    library: 'ReactFlex',
+    filename: 'index.js'
   },
+  plugins: plugins,
   module: {
     loaders: loaders,
   },
-  resolve: {
-    // Allow to omit extensions when requiring these files
-    extensions: ['', '.js', '.jsx']
-  },
-  devServer: {
-    publicPath: '/assets',
-    port: 8181,
-    // host: '0.0.0.0',
-    // hot: true,
-    historyApiFallback: true
-  }
+  resolve: resolve
 }

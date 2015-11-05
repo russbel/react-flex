@@ -1,16 +1,12 @@
 import React, { PropTypes } from 'react'
+import assign from 'object-assign'
+
 import join from './join'
-import props2flex from './props2flex'
-
-const DIV = React.createFactory('div')
-
-const getPrefix = (props) => {
-  return props.classNamePrefix || 'react-flex'
-}
+import getPrefix from './getPrefix'
+import flex2className from './flex2className'
 
 const props2className = (props) => {
   const prefix = getPrefix(props)
-  const flex = props2flex(props)
 
   const column = !!props.column
   const row = !column && !!props.row
@@ -19,12 +15,14 @@ const props2className = (props) => {
     props.className,
     prefix,
 
+    flex2className(props, prefix),
+
     props.alignItems?
       `${prefix}-align-items-${props.alignItems}`:
       null,
 
-    flex != null?
-      `${prefix}--flex-${flex}`:
+    props.alignContent?
+      `${prefix}-align-content-${props.alignContent}`:
       null,
 
     props.justifyContent?
@@ -49,11 +47,18 @@ const props2className = (props) => {
 
 const Flex = (props) => {
 
-  const Factory = props.factory || DIV
+  const Factory = props.factory || React.createFactory('div');
   const className = props2className(props)
 
-  return <div {...props} className={className} />
+  const allProps = assign({}, props, {
+    className
+  })
 
+  if (props.factory){
+    return props.factory(allProps);
+  }
+
+  return <div {...allProps} />
 }
 
 Flex.defaultProps = {
@@ -62,7 +67,9 @@ Flex.defaultProps = {
 }
 
 Flex.propTypes = {
+
   flex: PropTypes.oneOfType([
+    PropTypes.string,
     PropTypes.number,
     PropTypes.bool
   ]),
