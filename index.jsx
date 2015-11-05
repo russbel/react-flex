@@ -68,15 +68,23 @@ const App = (props) => {
           onChange={change('side')}
         />
       </Item>
-      <Item flex={values.content} style={{background: '#D0FFD7', padding: 10, borderLeft: border}}>
-        Content - flex {values.content}
-        <div style={{textAlign: 'right'}}>
-          <Slider
-            value={values.content}
-            onChange={change('content')}
-          />
-        </div>
-      </Item>
+      <Flex column alignItems="stretch" flex={values.content} style={{background: '#D0FFD7', padding: 10, borderLeft: border}}>
+        <Item>
+          Content - flex {values.content}
+          <div style={{textAlign: 'right'}}>
+            <Slider
+              value={values.content}
+              onChange={change('content')}
+            />
+          </div>
+        </Item>
+
+        <p>It's implemented with <b>css classNames</b>, since inline styles are problematic because of browser prefixes and different flexbox version support.
+        </p>
+
+        <p>Choose any flex value up to 12.</p>
+        <p>Powered by React and autoprefixer.</p>
+      </Flex>
       
     </Flex>
 
