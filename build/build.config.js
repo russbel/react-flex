@@ -4,11 +4,8 @@ var resolve = require('./resolve')
 
 module.exports = {
   bail: true,
-  entry: './src/index.js',
+  entry: './index.jsx',
   output: {
-    path: __dirname + '/../dist',
-    libraryTarget: 'umd',
-    library: 'ReactFlex',
     filename: 'index.js'
   },
   plugins: plugins,
