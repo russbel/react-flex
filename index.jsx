@@ -79,7 +79,7 @@ const App = (props) => {
     </Flex>
 
     <div style={{padding: 50, borderTop: border}}>
-      Footer
+      <a href="https://github.com/zippyui/react-flex">https://github.com/zippyui/react-flex</a>
     </div>
   </Flex>
 }
