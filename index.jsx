@@ -75,7 +75,7 @@ const App = (props) => {
           onChange={change('content')}
         />
       </Item>
-      
+
     </Flex>
 
     <div style={{padding: 50, borderTop: border}}>

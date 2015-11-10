@@ -69,6 +69,15 @@ There are two components in the `react-flex` module: `Flex` and `Item`. They bot
 </Flex>
 ```
 
+## Development
+
+```sh
+$ git clone https://github.com/zippyui/react-flex.git
+$ npm i
+$ npm run dev
+```
+
+Now navigate to [http://localhost:8181/dev.html](http://localhost:8181/dev.html), modify index.jsx and see the changes happen live in the browser.
 ## License
 
 #### MIT
