@@ -23,7 +23,7 @@ export default (props, prefix) => {
 
     flexBasis != null?
       `${prefix}--flex-basis-${flexBasis}`:
-      null,
+      null
   )
 
   return className

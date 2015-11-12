@@ -4,7 +4,6 @@ var resolve = require('./resolve')
 
 module.exports = {
   entry: './index.jsx',
-  bail: true,
   module: {
     loaders: loaders
   },
