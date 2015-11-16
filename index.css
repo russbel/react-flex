@@ -9,6 +9,13 @@
           align-items: center;
 }
 
+.react-flex-inline {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
 /* ALIGN-ITEMS */
 .react-flex-align-items-center {
   -webkit-box-align: center;

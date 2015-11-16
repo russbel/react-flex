@@ -34,6 +34,7 @@ There are two components in the `react-flex` module: `Flex` and `Item`. They bot
 
 ### Flex
 
+ * `inline: Boolean` - for `display: inline-flex`.
  * `row: Boolean` - for `flex-direction: row`. Defaults to `true`
  * `column: Boolean` - for `flex-direction: column`
  * `wrap: Boolean` - for `flex-wrap: wrap`. Defaults to true.

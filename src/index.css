@@ -3,6 +3,10 @@
   align-items: center;
 }
 
+.react-flex-inline {
+  display: inline-flex;
+}
+
 /* ALIGN-ITEMS */
 .react-flex-align-items-center {
   align-items: center;

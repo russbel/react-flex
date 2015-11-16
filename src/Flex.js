@@ -17,6 +17,10 @@ const props2className = (props) => {
 
     flex2className(props, prefix),
 
+    props.inline?
+      `${prefix}-inline`:
+      null,
+
     props.alignItems?
       `${prefix}-align-items-${props.alignItems}`:
       null,
@@ -74,6 +78,8 @@ Flex.propTypes = {
     PropTypes.bool
   ]),
 
+  inline: PropTypes.bool,
+  
   row: PropTypes.bool,
   column: PropTypes.bool,
   wrap: PropTypes.bool,
