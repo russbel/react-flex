@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import assign from 'object-assign';
+import assign from 'object-assign'
 
 import join from './join'
 import getPrefix from './getPrefix'
