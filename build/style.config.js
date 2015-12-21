@@ -6,7 +6,7 @@ var resolve = require('./resolve')
 module.exports = {
   bail: true,
   entry: {
-    index: './src/index.css'
+    index: './index.scss'
   },
   output: {
     filename: 'index.css',
@@ -15,8 +15,8 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.css$/,
-        loader: ExtractTextPlugin.extract('style', 'css!autoprefixer')
+        test: /\.scss$/,
+        loader: ExtractTextPlugin.extract('style', 'css!autoprefixer!sass')
       }
     ]
   },
