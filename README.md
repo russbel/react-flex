@@ -78,6 +78,10 @@ $ npm i
 $ npm run dev
 ```
 
+## Other
+
+If you wish to use `index.scss`, you can import that directly.
+
 Now navigate to [http://localhost:8181/dev.html](http://localhost:8181/dev.html), modify index.jsx and see the changes happen live in the browser.
 ## License
 

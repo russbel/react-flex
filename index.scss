@@ -1,4 +1,4 @@
-$FLEX_MAX_SIZE : 24;
+$REACT-FLEX_MAX-SIZE : 24;
 
 .react-flex {
   display: flex;
@@ -130,7 +130,7 @@ $FLEX_MAX_SIZE : 24;
   flex: none;
 }
 
-@for $i from 1 through $FLEX_MAX_SIZE {
+@for $i from 1 through $REACT-FLEX_MAX-SIZE {
   .react-flex-item--flex-#{$i},
   .react-flex--flex-#{$i} {
     flex: $i;
@@ -139,7 +139,7 @@ $FLEX_MAX_SIZE : 24;
 
 
 /* FLEX-GROW */
-@for $i from 1 through $FLEX_MAX_SIZE {
+@for $i from 1 through $REACT-FLEX_MAX-SIZE {
   .react-flex-item--flex-grow-#{$i},
   .react-flex--flex-grow-#{$i} {
     flex-grow: $i;
@@ -148,7 +148,7 @@ $FLEX_MAX_SIZE : 24;
 
 
 /* FLEX-SHRINK */
-@for $i from 1 through $FLEX_MAX_SIZE {
+@for $i from 1 through $REACT-FLEX_MAX-SIZE {
   .react-flex-item--flex-shrink-#{$i},
   .react-flex--flex-shrink-#{$i} {
     flex-shrink: $i;
