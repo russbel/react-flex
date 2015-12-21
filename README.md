@@ -38,16 +38,16 @@ There are two components in the `react-flex` module: `Flex` and `Item`. They bot
  * `row: Boolean` - for `flex-direction: row`. Defaults to `true`
  * `column: Boolean` - for `flex-direction: column`
  * `wrap: Boolean` - for `flex-wrap: wrap`. Defaults to true.
- * `flex: Number/String/Boolean` - a number/string from 0 to 12 for the `flex` css property. `false` for `none`.
+ * `flex: Number/String/Boolean` - a number/string from 0 to *24* for the `flex` css property. `false` for `none`.
  * `alignItems: String` - a value for the `align-items` css property.
  * `justifyContent: String` - a value for the `justify-content` css property.
  * `alignContent: String` - a value for the `align-content` css property.
 
 ### Item
 
-* `flex: Number/String/Boolean` - a number/string from 0 to 12 for the `flex` css property. `false` for `none`. Defaults to `1`.
-* `flexGrow: Number/Boolean/String` - a number/string from 0 to 12 for `flex-grow`. Most of the times, using `flex` is just enough.
-* `flexShrink: Number/String` - a value for the `flex-shrink` css property. From `0` to `12`.
+* `flex: Number/String/Boolean` - a number/string from 0 to *24* for the `flex` css property. `false` for `none`. Defaults to `1`.
+* `flexGrow: Number/Boolean/String` - a number/string from 0 to *24* for `flex-grow`. Most of the times, using `flex` is just enough.
+* `flexShrink: Number/String` - a value for the `flex-shrink` css property. From `0` to *`24`*.
 * `flexBasis: String` - a value for the `flex-basis` css property. Valid values are: `0` (and `'none'`, which is the same), `'auto'`, `'content'`, `'fit-content'`, `'min-content'`, `'max-content'`, `'fit'`.
 
 

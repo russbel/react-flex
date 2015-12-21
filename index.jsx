@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import Slide from 'react-slide';
 
-import './src/index.css';
+import './index.scss';
 import './example.css'
 
 import { Flex, Item } from './src'
