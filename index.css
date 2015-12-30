@@ -122,6 +122,13 @@
       -ms-flex-direction: column;
           flex-direction: column; }
 
+.react-flex-column-reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse; }
+
 /* ROW */
 .react-flex-row {
   -webkit-box-orient: horizontal;
@@ -129,6 +136,13 @@
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row; }
+
+.react-flex-row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
 
 /* FLEX-BASIS */
 .react-flex-item--flex-basis-auto,

@@ -4,6 +4,7 @@ var resolve = require('./resolve')
 
 module.exports = {
   entry: './index.jsx',
+  watchPoll: true,
   module: {
     loaders: loaders
   },
