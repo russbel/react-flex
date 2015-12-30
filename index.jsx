@@ -60,7 +60,7 @@ const App = (props) => {
       Drag slider handle to change flex value
     </div>
 
-    <Flex column flex alignItems="stretch">
+    <Flex column flex={1} alignItems="stretch">
       <Item flex={values.side} style={{background: '#E5F2F7', padding: 10}}>
         Sidebar - flex {values.side}
         <Slider

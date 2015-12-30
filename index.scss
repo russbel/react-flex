@@ -78,9 +78,17 @@ $REACT-FLEX_MAX-SIZE : 24;
   flex-direction: column;
 }
 
+.react-flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
 /* ROW */
 .react-flex-row {
   flex-direction: row;
+}
+
+.react-flex-row-reverse {
+  flex-direction: row-reverse;
 }
 
 /* FLEX-BASIS */

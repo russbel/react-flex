@@ -10,6 +10,7 @@ const props2className = (props) => {
 
   const column = !!props.column
   const row = !column && !!props.row
+  const reverse = props.reverse ? '-reverse' : ''
 
   let className = join(
     props.className,
@@ -38,11 +39,11 @@ const props2className = (props) => {
       null,
 
     row?
-      `${prefix}-row`:
+      `${prefix}-row${reverse}`:
       null,
 
     column?
-      `${prefix}-column`:
+      `${prefix}-column${reverse}`:
       null
   )
 

@@ -37,6 +37,7 @@ There are two components in the `react-flex` module: `Flex` and `Item`. They bot
  * `inline: Boolean` - for `display: inline-flex`.
  * `row: Boolean` - for `flex-direction: row`. Defaults to `true`
  * `column: Boolean` - for `flex-direction: column`
+ * `reverse: Boolean` - for reverse direction (eg. `flex-direction:  column-reverse or row-reverse`)
  * `wrap: Boolean` - for `flex-wrap: wrap`. Defaults to true.
  * `flex: Number/String/Boolean` - a number/string from 0 to *24* for the `flex` css property. `false` for `none`.
  * `alignItems: String` - a value for the `align-items` css property.
