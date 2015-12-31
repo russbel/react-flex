@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 import assign from 'object-assign'
+import Component from 'react-class'
 
 import join from './join'
 import getPrefix from './getPrefix'
@@ -18,19 +19,23 @@ const props2className = (props) => {
   return className
 }
 
-const FlexItem = (props) => {
+class FlexItem extends Component {
 
-  const className = props2className(props)
+  render(){
 
-  const allProps = assign({}, props, {
-    className
-  })
+    const props = this.props
+    const className = props2className(props)
 
-  if (props.factory){
-    return props.factory(allProps);
+    const allProps = assign({}, props, {
+      className
+    })
+
+    if (props.factory){
+      return props.factory(allProps);
+    }
+
+    return <div {...allProps} />
   }
-
-  return <div {...allProps} />
 }
 
 FlexItem.defaultProps = {

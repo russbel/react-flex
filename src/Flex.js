@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 import assign from 'object-assign'
+import Component from 'react-class'
 
 import join from './join'
 import getPrefix from './getPrefix'
@@ -50,20 +51,23 @@ const props2className = (props) => {
   return className
 }
 
-const Flex = (props) => {
+class Flex extends Component {
 
-  const Factory = props.factory || React.createFactory('div');
-  const className = props2className(props)
+  render(){
+    const props = this.props
+    const Factory = props.factory || React.createFactory('div');
+    const className = props2className(props)
 
-  const allProps = assign({}, props, {
-    className
-  })
+    const allProps = assign({}, props, {
+      className
+    })
 
-  if (props.factory){
-    return props.factory(allProps);
+    if (props.factory){
+      return props.factory(allProps);
+    }
+
+    return <div {...allProps} />
   }
-
-  return <div {...allProps} />
 }
 
 Flex.defaultProps = {
