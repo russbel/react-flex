@@ -3,32 +3,25 @@ import assign from 'object-assign'
 import Component from 'react-class'
 
 import join from './join'
-import getPrefix from './getPrefix'
-import flex2className from './flex2className'
-
-const props2className = (props) => {
-  const prefix = getPrefix(props) + '-item'
-
-  let className = join(
-    props.className,
-    prefix,
-
-    flex2className(props, prefix)
-  )
-
-  return className
-}
+import props2className from './props2className'
 
 class FlexItem extends Component {
 
   render(){
 
     const props = this.props
-    const className = props2className(props)
+    const className = join(
+      'react-flex-item',
+      props2className(props)
+    )
 
-    const allProps = assign({}, props, {
-      className
-    })
+    const allProps = assign({}, props)
+
+    delete allProps.display
+    delete allProps.wrap
+    delete allProps.row
+
+    allProps.className = className
 
     if (props.factory){
       return props.factory(allProps);
@@ -43,6 +36,16 @@ FlexItem.defaultProps = {
 }
 
 FlexItem.propTypes = {
+  display: PropTypes.oneOf([
+    'flex',
+    'inline-flex'
+  ]),
+  inline: (props, propName) => {
+    if (props[propName] !== undefined){
+      return new Error(`"inline" prop should not be used on "Item". Use "display='inline-flex'" instead`)
+    }
+  },
+
   flex: PropTypes.any,
   flexGrow: PropTypes.any,
   flexShrink: PropTypes.any,

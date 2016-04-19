@@ -60,15 +60,15 @@ const App = (props) => {
       Drag slider handle to change flex value
     </div>
 
-    <Flex column flex={1} alignItems="stretch">
-      <Item flex={values.side} style={{background: '#E5F2F7', padding: 10}}>
+    <Flex column inline flex={1} alignItems="stretch">
+      <Item display="inline-flex" flex={values.side} style={{background: '#E5F2F7', padding: 10}}>
         Sidebar - flex {values.side}
         <Slider
           value={values.side}
           onChange={change('side')}
         />
       </Item>
-      <Item flex={values.content} style={{background: '#D0FFD7', padding: 10, borderLeft: border}}>
+      <Item display="flex" flex={values.content} alignItems="stretch" style={{background: '#D0FFD7', padding: 10, borderLeft: border}}>
         Content - flex {values.content}
         <Slider
           value={values.content}

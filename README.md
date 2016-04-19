@@ -43,9 +43,20 @@ There are two components in the `react-flex` module: `Flex` and `Item`. They bot
  * `alignItems: String` - a value for the `align-items` css property.
  * `justifyContent: String` - a value for the `justify-content` css property.
  * `alignContent: String` - a value for the `align-content` css property.
+ * `display: String` - you can customize the display to be `'flex'` or `'inline-flex'`
+
+The `Flex` component has the following default props (which `Item` does not):
+
+ * `row=true`
+ * `wrap=true`
+ * `alignItems='center'
+ * `display='flex'`
+
+Our experience shows those are the most common configs, so we made them the defaults.
 
 ### Item
 
+* any of the above
 * `flex: Number/String/Boolean` - a number/string from 0 to *24* for the `flex` css property. `false` for `none`. Defaults to `1`.
 * `flexGrow: Number/Boolean/String` - a number/string from 0 to *24* for `flex-grow`. Most of the times, using `flex` is just enough.
 * `flexShrink: Number/String` - a value for the `flex-shrink` css property. From `0` to *`24`*.
@@ -64,7 +75,7 @@ There are two components in the `react-flex` module: `Flex` and `Item`. They bot
 
 <Flex column wrap={false}>
   <Flex flex={false}>
-    Flex also supports the `flex` prop 
+    Flex also supports the `flex` prop
   </Flex>
   <Item flex={3} />
   <Item flex={12} />
@@ -78,6 +89,16 @@ $ git clone https://github.com/zippyui/react-flex.git
 $ npm i
 $ npm run dev
 ```
+
+## Changelog
+
+### New in 2.0.0
+
+ * Add support for React `15.0.0` in `peerDependecies`
+ * Modify class names - remove all `react-flex-item` classes & add BEM convention
+ * Add `display` prop to `Flex` & `Item`. In this way, you can make even flex `Item` have display flex or inline-flex
+ * Make `scss` variable `$REACT-FLEX_MAX-SIZE` take previously defined value if one exists.
+
 
 ## Other
 
