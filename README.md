@@ -92,6 +92,10 @@ $ npm run dev
 
 ## Changelog
 
+### New in 2.0.1
+
+ * Add support for `alignSelf`
+
 ### New in 2.0.0
 
  * Add support for React `15.0.0` in `peerDependecies`

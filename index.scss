@@ -23,6 +23,9 @@ $REACT-FLEX_MAX-SIZE: 24 !default;
 .react-flex--align-items-stretch {
   align-items: stretch;
 }
+.react-flex--align-items-baseline {
+  align-items: baseline;
+}
 .react-flex--align-items-end,
 .react-flex--align-items-flex-end {
   align-items: flex-end;
@@ -30,6 +33,28 @@ $REACT-FLEX_MAX-SIZE: 24 !default;
 .react-flex--align-items-start,
 .react-flex--align-items-flex-start {
   align-items: flex-start;
+}
+
+/* ALIGN-SELF */
+.react-flex--align-self-center {
+  align-self: center;
+}
+.react-flex--align-self-stretch {
+  align-self: stretch;
+}
+.react-flex--align-self-baseline {
+  align-self: baseline;
+}
+.react-flex--align-self-auto {
+  align-self: auto;
+}
+.react-flex--align-self-end,
+.react-flex--align-self-flex-end {
+  align-self: flex-end;
+}
+.react-flex--align-self-start,
+.react-flex--align-self-flex-start {
+  align-self: flex-start;
 }
 
 /* ALIGN-CONTENT */

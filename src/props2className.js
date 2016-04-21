@@ -37,6 +37,10 @@ export default (props) => {
       `${PREFIX}--wrap`:
       null,
 
+    props.alignSelf?
+      `${PREFIX}--align-self-${props.alignSelf}`:
+      null,
+
     row?
       `${PREFIX}--row${reverse}`:
       null,
