@@ -49,7 +49,7 @@ The `Flex` component has the following default props (which `Item` does not):
 
  * `row=true`
  * `wrap=true`
- * `alignItems='center'
+ * `alignItems='center'`
  * `display='flex'`
 
 Our experience shows those are the most common configs, so we made them the defaults.
@@ -91,6 +91,10 @@ $ npm run dev
 ```
 
 ## Changelog
+
+### New in 2.1.0
+
+ * Make `scss` variable `$REACT-FLEX_MAX-SIZE` default to `100` instead of `24`
 
 ### New in 2.0.1
 
