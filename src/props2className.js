@@ -1,7 +1,8 @@
 import join from './join'
 import props2flex from './props2flex'
+import prefix from './prefix'
 
-const PREFIX = 'react-flex'
+const PREFIX = prefix
 
 export default (props) => {
 

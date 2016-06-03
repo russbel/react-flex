@@ -1,6 +1,6 @@
 {
   "name": "react-flex",
-  "version": "2.1.0",
+  "version": "2.2.2",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -47,6 +47,6 @@
   },
   "dependencies": {
     "object-assign": "^4.0.1",
-    "react-class": "^1.2.4"
+    "react-class": "^2.0.0"
   }
 }
