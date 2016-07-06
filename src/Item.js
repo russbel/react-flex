@@ -4,6 +4,7 @@ import Component from 'react-class'
 
 import join from './join'
 import props2className from './props2className'
+import cleanup from './cleanup'
 
 class FlexItem extends Component {
 
@@ -17,9 +18,7 @@ class FlexItem extends Component {
 
     const allProps = assign({}, props)
 
-    delete allProps.display
-    delete allProps.wrap
-    delete allProps.row
+    cleanup(allProps)
 
     allProps.className = className
 
