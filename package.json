@@ -4,7 +4,6 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "make",
     "prepublish": "npm run build",
     "build": "npm run lib && npm run build-style && npm run build-index",
     "lib": "rm -fr lib && babel --out-dir lib src",
