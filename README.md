@@ -1,12 +1,18 @@
 # react-flex
 
-> Flex component built for React
+ > Flex component built for React
 
 ## Install
 
 ```sh
 $ npm i react-flex --save
 ```
+
+## Key features
+
+ * **support for React 15.2.0**
+ * no worries about browser prefixing for older browsers
+ * props similar to css properties, so basically almost no learning curve
 
 ## Usage
 
@@ -20,7 +26,7 @@ import 'react-flex/index.css';
 </Flex>
 ```
 
-DONT FORGET to import `react-flex/index.css` as well.
+**DONT FORGET to import `react-flex/index.css`** as well.
 
 ## Motivation
 
