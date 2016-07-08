@@ -37,12 +37,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/radubrehar/react-flex"
+    "url": "https://github.com/zippyui/react-flex"
   },
   "author": "Radu Brehar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/radubrehar/react-flex/issues"
+    "url": "https://github.com/zippyui/react-flex/issues"
   },
   "dependencies": {
     "object-assign": "^4.0.1",
